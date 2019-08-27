@@ -1,0 +1,11 @@
+.word-card {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    width: 300px;
+}
+
+.word-card.card {
+    height: 450px;
+}
+
