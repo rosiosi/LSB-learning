@@ -1,0 +1,2 @@
+INSERT [dbo].[Word] ([WordID], [WordDefinition], [WordImagePath]) VALUES (1, N'casa', N'../../Images/casa.jpg')
+INSERT [dbo].[Word] ([WordID], [WordDefinition], [WordImagePath]) VALUES (2, N'familia', N'../../Images/familia.jpg')

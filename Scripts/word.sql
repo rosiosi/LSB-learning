@@ -1,0 +1,23 @@
+USE [LSB]
+GO
+
+/****** Object:  Table [dbo].[Word]    Script Date: 7/3/2019 11:55:35 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Word](
+	[WordID] [int] IDENTITY(1,1) NOT NULL,
+	[Word] [nvarchar](30) NOT NULL,
+	[WordImagePath] [nvarchar](max) NULL,
+ CONSTRAINT [PK_Word] PRIMARY KEY CLUSTERED 
+(
+	[WordID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+
+
